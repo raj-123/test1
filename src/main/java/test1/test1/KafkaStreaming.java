@@ -18,7 +18,7 @@ import org.apache.spark.streaming.kafka010.*;
 
 
 
-public class App 
+public class KafkaStreaming 
 {
     private static final String KAFKA_BROKER_LIST = "localhost:9092";
     private static final int STREAM_WINDOW_MILLISECONDS = 10000; // 10 seconds
